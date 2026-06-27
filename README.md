@@ -34,12 +34,6 @@ Main dataset file:
 data/HealthApp_Reviews_Clean.csv
 ```
 
-File checksum:
-
-```text
-SHA256: 58ac46ad35ec71c8734659ce6dfab51f675cbe2da8fa6abf9549653297f0798c
-```
-
 ## Dataset summary
 
 | Item | Value |
@@ -76,9 +70,6 @@ The sentiment labels are derived from star ratings:
 
 The manuscript reformulates the final classification task as binary positive-versus-negative sentiment classification after excluding the neutral class.
 
-## External validation note
-
-The manuscript reports an external validation set based on Bearable Google Play reviews. The current repository package includes the cleaned internal corpus file uploaded for public release. If you want full reproduction of the external-validation experiment, add the reserved Bearable Google Play validation file to `data/external_validation/` and update `data/external_validation/README.md`.
 
 ## Reproducing summary statistics
 
@@ -89,21 +80,3 @@ python scripts/summarize_dataset.py data/HealthApp_Reviews_Clean.csv
 ```
 
 This prints row counts, platform counts, sentiment distribution, rating distribution, date range, and checksum.
-
-## Data availability statement for manuscript
-
-Suggested wording:
-
-> The cleaned app-review dataset and accompanying documentation are available in the project repository: `[insert GitHub repository URL]`.
-
-If you also upload the external-validation file, use:
-
-> The cleaned app-review dataset, external-validation set, and accompanying documentation are available in the project repository: `[insert GitHub repository URL]`.
-
-## Citation
-
-If you use this dataset, please cite the associated manuscript. A citation metadata file is provided in [`CITATION.cff`](CITATION.cff).
-
-## Responsible use
-
-The dataset contains user-generated public app-store review text. Do not attempt to identify, contact, or profile individual reviewers. See [`DATA_TERMS.md`](DATA_TERMS.md) for data-use notes.

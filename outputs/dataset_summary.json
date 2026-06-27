@@ -1,0 +1,87 @@
+{
+  "dataset_file": "data/HealthApp_Reviews_Clean.csv",
+  "rows": 19601,
+  "columns": [
+    "source",
+    "review_description",
+    "review_date",
+    "rating",
+    "app_name",
+    "sentiment_value"
+  ],
+  "date_range": {
+    "start": "2015-06-16",
+    "end": "2025-04-19"
+  },
+  "platform_counts": {
+    "Google Play": 15023,
+    "App Store": 4578
+  },
+  "platform_date_ranges": {
+    "App Store": {
+      "count": 4578,
+      "start": "2015-06-16",
+      "end": "2025-04-18"
+    },
+    "Google Play": {
+      "count": 15023,
+      "start": "2016-04-07",
+      "end": "2025-04-19"
+    }
+  },
+  "sentiment_counts": {
+    "Positive": 13525,
+    "Negative": 4885,
+    "Neutral": 1191
+  },
+  "rating_counts": {
+    "1": 3920,
+    "2": 965,
+    "3": 1191,
+    "4": 2024,
+    "5": 11501
+  },
+  "app_counts": {
+    "Centr: Personal Fitness App": 7467,
+    "Arogga - Healthcare App": 3814,
+    "Nutrilio: Food Tracker & Water": 529,
+    "Eat This Much - Meal Planner": 3711,
+    "Cardiogram: BP & Heart Rate": 1892,
+    "Arogga": 70,
+    "AI Calorie Counter: Nutrilio": 60,
+    "Cardiogram: Heart Rate Monitor": 1599,
+    "Bearable - Symptom Tracker": 459
+  },
+  "app_platform_counts": {
+    "Centr: Personal Fitness App": {
+      "Google Play": 5963,
+      "App Store": 1504
+    },
+    "Arogga - Healthcare App": {
+      "Google Play": 3814
+    },
+    "Nutrilio: Food Tracker & Water": {
+      "Google Play": 529
+    },
+    "Eat This Much - Meal Planner": {
+      "Google Play": 2825,
+      "App Store": 886
+    },
+    "Cardiogram: BP & Heart Rate": {
+      "Google Play": 1892
+    },
+    "Arogga": {
+      "App Store": 70
+    },
+    "AI Calorie Counter: Nutrilio": {
+      "App Store": 60
+    },
+    "Cardiogram: Heart Rate Monitor": {
+      "App Store": 1599
+    },
+    "Bearable - Symptom Tracker": {
+      "App Store": 459
+    }
+  },
+  "sha256": "58ac46ad35ec71c8734659ce6dfab51f675cbe2da8fa6abf9549653297f0798c"
+}
